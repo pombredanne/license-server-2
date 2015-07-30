@@ -1,0 +1,36 @@
+{
+  "name": "license-server",
+  "version": "1.0.0",
+  "description": "This is a server which is used to watch repos at Jam3 and output the license of a repo",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {
+    "async": "^1.4.0",
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "gh-api-stream": "^1.0.2",
+    "ghauth": "^3.0.0",
+    "github-webhook-handler": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "license,web,package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikkoh/license-server.git"
+  },
+  "homepage": "https://github.com/mikkoh/license-server",
+  "bugs": {
+    "url": "https://github.com/mikkoh/license-server/issues"
+  },
+  "private": true
+}

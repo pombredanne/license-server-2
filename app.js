@@ -1,0 +1,5 @@
+var licenseServer = require('./.');
+
+licenseServer({
+
+});
