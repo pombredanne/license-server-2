@@ -17,6 +17,11 @@ module.exports = function(settings) {
     extended: true
   })); 
 
+
+  app.get('/', function(req, res) {
+    res.send('hey there');
+  });
+
   setupStatic(app, settings);
   gitHook(app, settings, '/git_hook');
 
