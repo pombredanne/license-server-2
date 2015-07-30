@@ -10,4 +10,4 @@ This is a server which is used to watch repos at Jam3 and output the license of 
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/mikkoh/license-server/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/jam3/license-server/blob/master/LICENSE.md) for details.

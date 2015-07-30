@@ -26,11 +26,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikkoh/license-server.git"
+    "url": "git://github.com/jam3/license-server.git"
   },
-  "homepage": "https://github.com/mikkoh/license-server",
+  "homepage": "https://github.com/jam3/license-server",
   "bugs": {
-    "url": "https://github.com/mikkoh/license-server/issues"
+    "url": "https://github.com/jam3/license-server/issues"
   },
   "private": true
 }
