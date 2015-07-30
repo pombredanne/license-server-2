@@ -11,7 +11,7 @@ module.exports = function(settings) {
   var gitHook = require('./lib/routes/gitHook');
 
   var app = express();
-  var port = process.env.NODE_ENV || 3000;
+  var port = process.env.PORT || 3000;
 
   app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
     extended: true
