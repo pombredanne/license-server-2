@@ -3,6 +3,7 @@ module.exports = function(settings) {
   settings = settings || {};
   settings.staticPath = settings.staticPath || 'static';
   settings.gitHookSecret = settings.gitHookSecret || '';
+  settings.licenseDepth = settings.licenseDepth || Number.MAX_VALUE;
 
   var express = require('express');
   var bodyParser = require('body-parser');
