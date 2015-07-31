@@ -1,7 +1,11 @@
+'use strict';
+
+var path = require('path');
+
 module.exports = function(settings) {
 
   settings = settings || {};
-  settings.staticPath = settings.staticPath || 'static';
+  settings.staticPath = settings.staticPath || path.join(process.cwd(), 'static');
   settings.gitHookSecret = settings.gitHookSecret || '';
   settings.licenseDepth = settings.licenseDepth || Number.MAX_VALUE;
 
