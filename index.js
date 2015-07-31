@@ -19,6 +19,7 @@ module.exports = function(settings) {
 
   var setupStatic = require('./lib/routes/static');
   var gitHook = require('./lib/routes/gitHook');
+  var project = require('./lib/routes/project');
 
   var app = express();
   var port = process.env.PORT || 3000;
@@ -34,6 +35,7 @@ module.exports = function(settings) {
 
   setupStatic(app, settings);
   gitHook(app, settings, '/git_hook');
+  project(app, settings, '/:repo/:file');
 
   app.listen(port);
 };
