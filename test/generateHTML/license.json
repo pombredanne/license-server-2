@@ -1,0 +1,209 @@
+{
+  "dependencies": {
+    "autorecordmic": {
+      "license": "MIT",
+      "version": "0.3.4",
+      "dependencies": {
+        "recordmic": {
+          "license": "MIT",
+          "version": "0.0.6"
+        }
+      }
+    },
+    "babel-runtime": {
+      "license": "MIT",
+      "version": "5.6.15",
+      "dependencies": {
+        "core-js": {
+          "license": "MIT",
+          "version": "0.9.0"
+        }
+      }
+    },
+    "bigwheel": {
+      "license": "MIT",
+      "version": "2.0.7",
+      "dependencies": {
+        "bw-router": {
+          "license": "MIT",
+          "version": "1.1.1",
+          "dependencies": {
+            "dom-event": {
+              "license": "BSD 4-Clause",
+              "version": "0.0.3"
+            },
+            "routes": {
+              "version": "1.2.0"
+            },
+            "tape": {
+              "license": "MIT",
+              "version": "3.0.3",
+              "dependencies": {
+                "deep-equal": {
+                  "license": "MIT",
+                  "version": "0.2.0"
+                },
+                "defined": {
+                  "license": "MIT",
+                  "version": "0.0.0",
+                  "dependencies": {
+                    
+                  }
+                },
+                "glob": {
+                  "license": "BSD 4-Clause",
+                  "version": "3.2.9",
+                  "dependencies": {
+                    "minimatch": {
+                      "license": "MIT",
+                      "version": "0.2.11",
+                      "dependencies": {
+                        "lru-cache": {
+                          "license": "ISC",
+                          "version": "2"
+                        },
+                        "sigmund": {
+                          "license": "BSD 4-Clause",
+                          "version": "1.0.0",
+                          "dependencies": {
+                            
+                          }
+                        }
+                      }
+                    },
+                    "inherits": {
+                      "license": "ISC",
+                      "version": "2"
+                    }
+                  }
+                },
+                "inherits": {
+                  "license": "ISC",
+                  "version": "2.0.1"
+                },
+                "object-inspect": {
+                  "license": "MIT",
+                  "version": "0.4.0"
+                },
+                "resumer": {
+                  "license": "MIT",
+                  "version": "0.0.0",
+                  "dependencies": {
+                    "through": {
+                      "license": "MIT",
+                      "version": "2.3.4"
+                    }
+                  }
+                },
+                "through": {
+                  "license": "MIT",
+                  "version": "2.3.4"
+                }
+              }
+            }
+          }
+        },
+        "bw-viewmediator": {
+          "license": "MIT",
+          "version": "2.0.0"
+        },
+        "bw-vm": {
+          "license": "MIT",
+          "version": "2.0.2",
+          "dependencies": {
+            
+          }
+        },
+        "dom-event": null
+      }
+    },
+    "bluebird": {
+      "license": "MIT",
+      "version": "2.9.30"
+    },
+    "detect-dom-ready": {
+      "version": "1.0.2",
+      "dependencies": {
+        
+      }
+    },
+    "gsap": {
+      "version": "1.15.0"
+    },
+    "gsap-promise": {
+      "license": "MIT",
+      "version": "1.4.0",
+      "dependencies": {
+        "bluebird": {
+          "license": "MIT",
+          "version": "2.9.21"
+        },
+        "gsap": {
+          "version": "1.14.1"
+        }
+      }
+    },
+    "has-flash": {
+      "version": "1.0.1"
+    },
+    "has-getusermedia": {
+      "license": "MIT",
+      "version": "1.0.0"
+    },
+    "lodash": {
+      "license": "MIT",
+      "version": "3.10.0"
+    },
+    "mobile-detect": {
+      "license": "MIT",
+      "version": "1.2.0",
+      "dependencies": {
+        
+      }
+    },
+    "math-clamp": {
+      "license": "MIT",
+      "version": "1.0.0"
+    },
+    "speedyspeech": {
+      "license": "MIT",
+      "version": "0.1.1"
+    },
+    "vue": {
+      "license": "MIT",
+      "version": "0.12.6"
+    },
+    "vue-validator": {
+      "license": "MIT",
+      "version": "1.2.0"
+    },
+    "wavencoder": {
+      "license": "MIT",
+      "version": "0.0.3"
+    },
+    "whatwg-fetch": {
+      "license": "MIT",
+      "version": "0.9.0"
+    },
+    "youtube-iframe-player": {
+      "license": "MIT",
+      "version": "1.0.0",
+      "dependencies": {
+        "require-sdk": {
+          "license": "BSD 4-Clause",
+          "version": "0.0.2",
+          "dependencies": {
+            "load-script": {
+              "license": "MIT",
+              "version": "*"
+            },
+            "pubsub": {
+              "license": "BSD 4-Clause",
+              "version": "0.0.5"
+            }
+          }
+        }
+      }
+    }
+  }
+}

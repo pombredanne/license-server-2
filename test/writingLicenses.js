@@ -6,7 +6,7 @@ var writeLicenses = require('../lib/writeLicenses');
 
 getPackageJSON('bigwheel', 'latest', function(err, packageJSON) {
 
-  getLicenses(packageJSON, Number.MAX_VALUE, function(err, licenses) {
+  getLicenses('', packageJSON, Number.MAX_VALUE, function(err, licenses) {
 
     writeLicenses( { staticPath: 'static/' }, 'testRepo', licenses);
   });
