@@ -8,6 +8,11 @@ module.exports = function(settings) {
   settings.staticPath = settings.staticPath || path.join(process.cwd(), 'static');
   settings.gitHookSecret = settings.gitHookSecret || '';
   settings.licenseDepth = settings.licenseDepth || Number.MAX_VALUE;
+  
+  if(!(settings.repoRegex instanceof RegExp)) {
+    
+    settings.repoRegex = settings.repoRegex ? new RegExp(settings.repoRegex) : new RegExp('.*');
+  }
 
   var express = require('express');
   var bodyParser = require('body-parser');
