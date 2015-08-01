@@ -35,6 +35,7 @@ module.exports = function(settings) {
 
   setupStatic(app, settings);
   gitHook(app, settings, '/git_hook');
+  project(app, settings, '/:repo/');
   project(app, settings, '/:repo/:file');
 
   app.listen(port);
