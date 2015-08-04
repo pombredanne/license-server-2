@@ -12,6 +12,7 @@
   "dependencies": {
     "async": "^1.4.0",
     "body-parser": "^1.13.2",
+    "dom-select": "0.0.0",
     "express": "^4.13.1",
     "gh-api-stream": "^1.0.2",
     "ghauth": "^3.0.0",
