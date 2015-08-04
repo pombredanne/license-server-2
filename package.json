@@ -12,6 +12,7 @@
   "dependencies": {
     "async": "^1.4.0",
     "body-parser": "^1.13.2",
+    "browserify": "^11.0.1",
     "dom-select": "0.0.0",
     "express": "^4.13.1",
     "gh-api-stream": "^1.0.2",
@@ -20,7 +21,9 @@
     "githulk": "^0.2.1",
     "licenses": "0.0.20",
     "mkdirp": "^0.5.1",
-    "package-json": "^1.2.0"
+    "package-json": "^1.2.0",
+    "uglifyify": "^3.0.1",
+    "uglifyjs": "^2.4.10"
   },
   "devDependencies": {},
   "scripts": {
