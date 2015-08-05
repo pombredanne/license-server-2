@@ -1,17 +1,22 @@
-var pm2 = require('pm2');
- 
-pm2.connect(function() {
-  pm2.start({
-    script: 'child.js',
-    exec_mode: 'cluster',
-    env: {
-      PORT: process.env.PORT,
-      gitToken: process.env.gitToken,
-      gitHookSecret: process.env.gitHookSecret,
-      org: process.env.org,
-      repoRegex: process.env.repoRegex
-    }
-  }, function(err, apps) {
-    pm2.disconnect();
-  });
+var throng = require('throng');
+var licenseServer = require('./.');
+
+var NUM_WORKERS = process.env.WEB_CONCURRENCY || 1;
+
+throng(start, {
+  workers: NUM_WORKERS,
+  lifetime: Infinity
 });
+
+function start() {
+
+  console.log('STARTING SERVER ON PORT', process.env.PORT);
+
+  licenseServer({
+    port: process.env.PORT,
+    gitToken: process.env.gitToken,
+    gitHookSecret: process.env.gitHookSecret,
+    org: process.env.org,
+    repoRegex: process.env.repoRegex,
+  });
+}
