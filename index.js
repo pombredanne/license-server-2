@@ -22,7 +22,7 @@ module.exports = function(settings) {
   var project = require('./lib/routes/project');
 
   var app = express();
-  var port = process.env.PORT || 3000;
+  var port = settings.port || 3000;
 
   app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
     extended: true
