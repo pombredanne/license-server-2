@@ -4,12 +4,12 @@
   "repository": "https://github.com/jam3/license-server",
   "keywords": ["node", "license", "server", "client", "mit", "gnu"],
   "env": {
-    "gitHookSecret": {
-      "description": "This is a secret token value for Github to communicate via webhooks. For more info checkout: https://github.com/Jam3/license-server",
-      "required": true
-    },
     "gitToken": {
       "description": "This is an api access token to communicate with Github. For more info checkout: https://github.com/Jam3/license-server",
+      "required": true
+    },
+    "gitHookSecret": {
+      "description": "This is a secret token value for Github to communicate via webhooks. For more info checkout: https://github.com/Jam3/license-server",
       "required": true
     },
     "org": {
