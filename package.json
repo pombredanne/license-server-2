@@ -30,7 +30,7 @@
   "devDependencies": {
   },
   "scripts": {
-    "start": "node child.js"
+    "start": "node app.js"
   },
   "keywords": [
     "license,web,package.json"
