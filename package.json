@@ -24,10 +24,10 @@
     "mkdirp": "^0.5.1",
     "package-json": "^1.2.0",
     "uglifyify": "^3.0.1",
-    "uglifyjs": "^2.4.10"
+    "uglifyjs": "^2.4.10",
+    "pm2": "^0.14.5"
   },
   "devDependencies": {
-    "pm2": "^0.14.5"
   },
   "scripts": {
     "start": "node_modules/.bin/pm2 start app.js",
