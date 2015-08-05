@@ -26,9 +26,12 @@
     "uglifyify": "^3.0.1",
     "uglifyjs": "^2.4.10"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "pm2": "^0.14.5"
+  },
   "scripts": {
-    "start": "node app.js"
+    "start": "node_modules/.bin/pm2 start app.js",
+    "stop": "node_modules/.bin/pm2 stop app.js"
   },
   "keywords": [
     "license,web,package.json"
