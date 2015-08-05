@@ -23,6 +23,7 @@
     "licenses": "0.0.20",
     "mkdirp": "^0.5.1",
     "package-json": "^1.2.0",
+    "rimraf": "^2.4.2",
     "throng": "^1.0.0",
     "uglifyify": "^3.0.1",
     "uglifyjs": "^2.4.10"

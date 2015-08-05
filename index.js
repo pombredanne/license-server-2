@@ -38,6 +38,7 @@ module.exports = function(settings) {
   project(app, settings, '/:repo/');
   project(app, settings, '/:repo/:file');
 
+  console.log('STARTING SERVER ON PORT', port);
   app.listen(port);
 };
   

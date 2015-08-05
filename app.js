@@ -10,8 +10,6 @@ throng(start, {
 
 function start() {
 
-  console.log('STARTING SERVER ON PORT', process.env.PORT);
-
   licenseServer({
     port: process.env.PORT,
     gitToken: process.env.gitToken,
