@@ -1,0 +1,24 @@
+{
+  "name": "license-server",
+  "description": "A server which watches your organization and outputs license information for repos which contain a package.json file",
+  "repository": "https://github.com/jam3/license-server",
+  "keywords": ["node", "license", "server", "client", "mit", "gnu"],
+  "env": {
+    "gitHookSecret": {
+      "description": "This is a secret token value for Github to communicate via webhooks. For more info checkout: https://github.com/Jam3/license-server",
+      "required": true
+    },
+    "gitToken": {
+      "description": "This is an api access token to communicate with Github. For more info checkout: https://github.com/Jam3/license-server",
+      "required": true
+    },
+    "org": {
+      "description": "The organization where repos will live. eg. Jam3",
+      "required": true
+    },
+    "repoRegex": {
+      "description": "This is an optional string which is used to validate which repos can be queried. eg. `project-.+` will ensure that repos starting with the name `project-` will have license files generated.",
+      "required": false
+    }
+  }
+}
