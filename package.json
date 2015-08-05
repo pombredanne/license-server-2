@@ -30,8 +30,7 @@
   "devDependencies": {
   },
   "scripts": {
-    "start": "node_modules/.bin/pm2 start app.js",
-    "stop": "node_modules/.bin/pm2 stop app.js"
+    "start": "node app.js"
   },
   "keywords": [
     "license,web,package.json"
