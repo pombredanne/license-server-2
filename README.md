@@ -23,10 +23,20 @@ To create your personal github access token go here:
 2. Press "Generate Token"
 3. Ensure "repo" is checked (nothing else is needed)
 
-If you're testing webhooks (your server will need to be accisble by github) do the following:
+If you're testing webhooks (your server will need to be accessible by github) do the following:
 ```
 $ export gitHookSecret=your github webhook secret
 ```
+
+To setup github webhooks and get a secret:
+
+1. Visite your orgs settings/hooks at this link:
+https://github.com/organizations/[Your Org Here]/settings/hooks
+2. Press "Add Webhook"
+3. Enter in the url where your app will sit followed by "/git_hook" for instance: http://awesome-company-site.com/git_hook
+4. Generate and enter in Secret (https://developer.github.com/webhooks/securing/). This secret is what you'll set when setting `gitHookSecret`
+5. Make sure "just push events" is selected.
+6. Press "Add Webhook"
 
 Optionally you can also do:
 ```
