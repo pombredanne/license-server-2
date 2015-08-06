@@ -42,6 +42,5 @@
   "homepage": "https://github.com/jam3/license-server",
   "bugs": {
     "url": "https://github.com/jam3/license-server/issues"
-  },
-  "private": true
+  }
 }
